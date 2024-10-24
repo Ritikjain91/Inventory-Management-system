@@ -3,13 +3,13 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function ContainerOutsideExample() {
   return (
-    <Container>
-      <Navbar expand="lg" className="Primary">
+    <div>
+      <Navbar expand="lg" className="bg-primary">
         <Container>
           <Navbar.Brand href="#">Navbar</Navbar.Brand>
         </Container>
       </Navbar>
-    </Container>
+    </div>
   );
 }
 

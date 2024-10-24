@@ -93,7 +93,8 @@ function FormExample() {
   }, [selectedState]);
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <div className="shadow p-3 mb-5 bg-body-tertiary rounded">
+    <Form  noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
         <Form.Group as={Col} md="6" controlId="validationCustom01">
           <Form.Label>Supplier Name</Form.Label>
@@ -175,6 +176,7 @@ function FormExample() {
 
       <Button type="submit">Submit form</Button>
     </Form>
+    </div>
   );
 }
 

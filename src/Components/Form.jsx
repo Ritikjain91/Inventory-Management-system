@@ -22,7 +22,7 @@ function FormExample() {
   };
 
   return (
-  
+    <div className="shadow p-3 mb-5 bg-body-tertiary rounded">
     <Form noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom01">
@@ -67,6 +67,7 @@ function FormExample() {
       
       <Button type="submit">Submit form</Button>
     </Form>
+    </div>
   );
 }
 
