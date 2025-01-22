@@ -4,7 +4,7 @@ import axios from 'axios';
 import './App.css';
 
 
-const ENDPOINT = "https://chat-backend-app-i725.vercel.app/"; // Backend server URL
+const ENDPOINT = "http://localhost:3000";
 
 function App() {
   const [messages, setMessages] = useState([]);
